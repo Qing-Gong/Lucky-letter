@@ -1,10 +1,10 @@
 \name{alph}
 \alias{alph}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Random Alphabet
+\title{ Random letter
 %%  ~~function to do ... ~~
 }
-\description{It generates a random letter of the alphabet.
+\description{ This function randomly gives you a letter.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -24,7 +24,7 @@ alph()
 \references{
 %% ~put references to the literature/web site here ~
 }
-\author{ Qing
+\author{GQ
 %%  ~~who you are~~
 }
 \note{

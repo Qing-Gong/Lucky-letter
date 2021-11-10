@@ -1,2 +1,2 @@
 luck <-
-function() {print("Your lucky letter!")}
+function() {cat(toupper(alph()), "is your lucky letter!")}

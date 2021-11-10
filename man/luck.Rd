@@ -1,20 +1,20 @@
 \name{luck}
 \alias{luck}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{Lucky Letter
+\title{Lucky letter
 %%  ~~function to do ... ~~
 }
-\description{Print your lucky letter.
+\description{It gives you your lucky letter.
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
 luck()
 }
 %- maybe also 'usage' for other objects documented here.
-\details{Print out.
+\details{Run it to check your lucky letter.
 %%  ~~ If necessary, more details than the description above ~~
 }
-\value{
+\value{a - z
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
@@ -37,14 +37,14 @@ luck()
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
+##---- luck() ----
 ##-- ==>  Define data, use random,
 ##--	or do  help(data=index)  for the standard data sets.
 
 ## The function is currently defined as
 function () 
 {
-    print("Your lucky letter!")
+    cat(toupper(alph()), "is your lucky letter!")
   }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
